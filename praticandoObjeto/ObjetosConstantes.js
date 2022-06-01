@@ -7,7 +7,13 @@ console.log(pessoa )
 //pessoa = {nome: 'Ana'}
 //console.log(pessoa)
 
+//congela todas as ações de um objeto nada do objeto irá mudar
 Object.freeze(pessoa)
 
 pessoa.nome = 'maria'
+pessoa.end = 'rua abc'
 console.log(pessoa.nome)
+delete pessoa.nome
+
+console.log(pessoa.nome)
+console.log(pessoa)
