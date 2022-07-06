@@ -2,4 +2,7 @@ Até então conseguimos acessar o cliente pelo CFRT e achar caracteristicas do c
 Código, cnpj, tipo de pessoa. Porém Situação de contrato só é possivel validar pelo aplicativo gerenciador
 perguntar se todos os suportes serão prestados apenas aos clientes, pois há uma diferença de código para cada tipo de C F R T 
 abrir chamado com a WK para que possamos entender melhor se é possivel validar login com o endpoint do software gerenciador
-Onde acho informações do contrato 
+Onde acho informações do contrato (se tem ou nao garantia qual o nivel de prioridade do suporte)
+
+
+abrir chamado na wk clientes para confirmar os se os metodos estao corretos
