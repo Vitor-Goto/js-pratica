@@ -1,4 +1,1 @@
-Na primeira consulta com método post conseguimos consultar a lista de produtos,seguindo a documentação Web Services WK.
-Nas consultas seguintes não tivemos sucesso com os parametros : código do cliente ou numero de série.
-Precisamos de ajuda em saber qual a parametragem correta ou se o erro esta nos endpoints colocados para fazer a consulta,
-todas as consultas foram feitas utilizando o software PostMan.
+como escrever o JSON corretamente para utilizar o endpoint de gravar assistencia tecnica (gerenciador/Gerenciador.svc/json/GravarAssistenciaTecnica) usando desta forma esta dando bad request
