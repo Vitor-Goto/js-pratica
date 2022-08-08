@@ -1,0 +1,257 @@
+
+{
+    "login": 
+    {
+        "Base": "WSNETS",
+        "Usuario": "WebService",
+        "Senha": "TBI_100%$"
+    },
+    "assistec": 
+    {
+        "Atendimentos": [
+            {
+                "AtendimentoGeral": [
+                    {
+                        "CodigoAtendimentoGeral": "",
+                        "CodigoEquipamentoProduto": "8453508",
+                        "CodigoTipoDefeitoAtendimento": "702",
+                        "Comentario": "REVISAR",
+                        "DefeitoConstatado": "NÃO ESTAVA FUNCIONANDO",
+                        "NomeEquipamentoProduto": "Scanner Kodak Mod. I4200",
+                        "NomeTipoDefeitoAtendimento": "Indisponibiliidade Operacional",
+                        "SerieEquipamentoProduto": "46310975",
+                        "SolucaoExecutada": "",
+                        "TipoEquipamento": 1
+                    }
+                ],
+                "AtendimentoServicosProdutos": [
+                    {
+                        "CodigoAtendimentoServicoProduto": "",
+                        "CodigoEquipamentoProduto": "8453508",
+                        "CodigoServicoProduto": "33-00400-00C",
+                        "EhServico": false,
+                        "Quantidade": "5",
+                        "CodigoLocal": "153",
+                        "TipoEquipamento": 1,
+                        "CodigoTabelaPreco":"1",
+                        "ValorUnitario": "1,00"
+                    }
+                ],
+                "AtendimentoTempos1": 
+                {
+                    "DataInicioEfetivo": "",
+                    "DataTerminoEfetivo": "",
+                    "HoraInicioEfetivo": "00:00",
+                    "HoraTerminoEfetivo": "00:00",
+                    "QuantidadeHorasUtilizadas": "00:00"
+                },
+                "CodigoAtendimento": "",
+                "CodigoTecnicoAtendimento": "143",
+                "Concluida": true,
+                "DataAtendimento": "03/08/2022",
+                "GerarRequisicaoInterna": true,
+                "HoraAtendimento": "14:33",
+                "NomeTecnicoAtendimento": "WKWS"
+            }
+        ],
+        "CPF_CNPJ_Cliente": "11.619.862/0001-13",
+        "Codigo": "",
+        "CodigoCliente": "C18531",
+        "CodigoFilial": "6",
+        "CodigoSituacao": "1",
+        "Complemento": 
+        {
+            "CodigoAtendidoPor": "140",
+            "CodigoPrioridade": "1",
+            "DataAprovacao": "",
+            "DataVisitaTecnico": "",
+            "NomeAtendidoPor": "NATANAEL SILVA",
+            "NomePrioridade": "Normal",
+            "Representantes": [
+                {
+                    "CPF_CNPJ": "029.804.688-19 ",
+                    "Codigo": "R0059",
+                    "CodigoTabelaPrecoProduto": "",
+                    "CodigoTabelaPrecoServico": "",
+                    "Nome": "Benedito Odair Amaral Rodrigues"
+                }
+            ],
+            "Tecnicos": [
+                {
+                    "Codigo": "110",
+                    "Nome": "RAFAEL BENTO"
+                }
+            ],
+            "Vendedores": []
+        },
+        "DadosClienteAssistencia": null,
+        "DataAbertura": "03/08/2022",
+        "Equipamentos": [
+            {
+                "CodigoEquipamento": "8453508",
+                "CodigoMarca": "",
+                "CodigoSituacaoEquipamento": "05",
+                "CodigoTipoEquipamentoProduto": "05",
+                "EquipamentoProdutoAssistenciaDefeito": {
+                    "CodigoTipoDefeito": null,
+                    "ComentariosDefeito": "",
+                    "DefeitoDetectado": "",
+                    "DefeitoRelatado": "Travando na digitalização",
+                    "NomeTipoDefeito": null
+                },
+                "NomeSituacaoEquipamento": "On-site - Contrato",
+                "NomeTipoEquipamentoProduto": "Standard - 2 PMs (Antigo Essencial)",
+                "NrPatrimonial": "",
+                "NrSerie": "46310975",
+                "TipoEquipamento": 1
+            }
+        ],
+        "HoraAbertura": "14:33",
+        "InformacoesAdicionais": {
+            "Pastas": [
+                {
+                    "Campos": [
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "1",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Recebido em",
+                            "TipoCampo": 3,
+                            "ValorCampo": ""
+                        },
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "0",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Data Despacho",
+                            "TipoCampo": 3,
+                            "ValorCampo": ""
+                        },
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "61",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Transportadora",
+                            "TipoCampo": 1,
+                            "ValorCampo": ""
+                        },
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "60",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Cod. Rastreamento ",
+                            "TipoCampo": 1,
+                            "ValorCampo": ""
+                        },
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "90",
+                            "GrupoCampo": "",
+                            "NomeCampo": "NF Entrada",
+                            "TipoCampo": 7,
+                            "ValorCampo": ""
+                        }
+                    ],
+                    "CodigoPasta": "0",
+                    "NomePasta": "Rec/Despacho",
+                    "PosicaoPasta": "7"
+                },
+                {
+                    "Campos": [
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "0",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Data Aprovação/Reprovação",
+                            "TipoCampo": 3,
+                            "ValorCampo": ""
+                        },
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "60",
+                            "GrupoCampo": "",
+                            "NomeCampo": "N. Orçamento",
+                            "TipoCampo": 1,
+                            "ValorCampo": ""
+                        },
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "61",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Status",
+                            "TipoCampo": 1,
+                            "ValorCampo": ""
+                        }
+                    ],
+                    "CodigoPasta": "2",
+                    "NomePasta": "Orçamento ",
+                    "PosicaoPasta": "6"
+                },
+                {
+                    "Campos": [
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "270",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Inicio Deslocamento",
+                            "TipoCampo": 5,
+                            "ValorCampo": ""
+                        },
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "271",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Fim Deslocamento",
+                            "TipoCampo": 5,
+                            "ValorCampo": ""
+                        }
+                    ],
+                    "CodigoPasta": "1",
+                    "NomePasta": "Deslocamento",
+                    "PosicaoPasta": "3"
+                },
+                {
+                    "Campos": [
+                        {
+                            "CampoObrigatorio": false,
+                            "CodigoCampo": "60",
+                            "GrupoCampo": "",
+                            "NomeCampo": "Contador",
+                            "TipoCampo": 1,
+                            "ValorCampo": "1234567891"
+                        }
+                    ],
+                    "CodigoPasta": "3",
+                    "NomePasta": "Contador",
+                    "PosicaoPasta": "4"
+                }
+            ],
+            "Processo": 0
+        },
+        "LocalizacaoEquipamento": 
+        {
+            "Bairro": "Centro",
+            "CEP": "24900-000",
+            "Cidade": "Marica",
+            "CodigoCidade": "58530",
+            "CodigoIBGECidade": "3302700",
+            "Comentario": "",
+            "Complemento": "",
+            "Contato": "Maria Alice",
+            "DDD": null,
+            "Email": null,
+            "Endereco": "RJ -106 KM 27,5",
+            "NumeroEndereco": "15",
+            "Telefone": null,
+            "UF": "RJ"
+        },
+        "NomeSituacao": "Em atendimento ",
+        "NumeroAssistencia": "28629op",
+        "RazaoSocialCliente": "Vosttro Comercio e Servico de Informatica e Video LTDA",
+        "Recados": [],
+        "TipoRegistro": [
+            4,
+            5
+        ]
+    }
+}
