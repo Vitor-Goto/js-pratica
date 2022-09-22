@@ -164,7 +164,7 @@ function FlappyBird() {
     barreiras.pares.forEach(par => areaDoJogo.appendChild(par.elemento))
 
     this.start = () =>{
-        //loop dp jogo
+        //loop do jogo
         const temporizador = setInterval(() => {
             barreiras.animar()
             passaro.animar()
