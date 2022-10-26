@@ -1,11 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Vitor Goto",
-        "email": "vitoryukiobomfim@cod3r.com"
-    }, {
-        "id": 2,
-        "name": "Gabriele Neves",
-        "email": "gabineves@gmail.com"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Vitor Goto",
+      "email": "vitoryukiobomfim@cod3r.com"
+    },
+    {
+      "id": 2,
+      "name": "Gabriele Neves",
+      "email": "gabineves@gmail.com"
+    },
+    {
+      "name": "testealt",
+      "email": "teste",
+      "id": 5
+    }
+  ]
 }
