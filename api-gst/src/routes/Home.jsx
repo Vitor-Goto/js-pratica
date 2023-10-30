@@ -25,14 +25,18 @@ const Home = () => {
   }, [])
 
   return (
-    <div>
+    <div className="home">
       <h1>Ultimos Chamados</h1>
       {chamados.length === 0 ? (
         <p>Carregando...</p>
       ) : (
         chamados.map((chamado) => (
           <div className="chamado" key={chamado.OS}>
+            <h2>{chamado.OS}</h2>
             <h2>{chamado.DESCRICAO_TOTAL}</h2>
+            <Link to={`/chamados/${chamado.OS}`} className="btn">
+              Ler mais
+            </Link>
           </div>
         ))
       )}
