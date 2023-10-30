@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 
+import "./Navbar.css"
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <h2>
-        <Link to={"/"} className="new-btn">
-          Chamados
-        </Link>
+        <Link to={"/"}>Chamados</Link>
       </h2>
       <ul>
         <li>
