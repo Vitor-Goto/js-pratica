@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <NewPost />,
       },
       {
-        path: "/chamados/:OS",
+        path: "/chamados/:id",
         element: <Chamadodetails />,
       },
     ],

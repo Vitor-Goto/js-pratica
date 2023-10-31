@@ -31,10 +31,10 @@ const Home = () => {
         <p>Carregando...</p>
       ) : (
         chamados.map((chamado) => (
-          <div className="chamado" key={chamado.OS}>
+          <div className="chamado" key={chamado.id}>
             <h2>{chamado.OS}</h2>
             <h2>{chamado.DESCRICAO_TOTAL}</h2>
-            <Link to={`/chamados/${chamado.OS}`} className="btn">
+            <Link to={`/chamados/${chamado.id}`} className="btn">
               Ler mais
             </Link>
           </div>

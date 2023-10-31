@@ -5,14 +5,13 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 
 const Chamadodetails = () => {
-  const { OS } = useParams()
+  const { id } = useParams()
 
   const [chamado, setChamado] = useState()
 
   const getChamadosdetails = async () => {
     try {
-      const response = await axios.get(`http://localhost:4001/chamados/${OS}`)
-
+      const response = await axios.get(`http://localhost:4001/chamados/${id}`)
       const data = response.data
       setChamado(data)
     } catch (error) {
@@ -21,7 +20,7 @@ const Chamadodetails = () => {
   }
   useEffect(() => {
     getChamadosdetails()
-  }, [OS])
+  }, [])
 
   return <div>Chamadodetails</div>
 }
