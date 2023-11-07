@@ -15,6 +15,7 @@ const Home = () => {
 
       const data = response.data
       setChamados(data)
+      console.log(typeof data, typeof chamados)
     } catch (error) {
       console.log(error)
     }
