@@ -4,14 +4,14 @@ import axios from "axios"
 
 import "./Home.css"
 
-const url = "http://localhost:4001/chamados"
+const dbUrl = "http://localhost:6001/api/chamados"
 
 const Home = () => {
   const [chamados, setChamados] = useState([])
 
   const getChamados = async () => {
     try {
-      const response = await axios.get("http://localhost:4001/chamados")
+      const response = await axios.get(dbUrl)
 
       const data = response.data
       setChamados(data)
@@ -32,10 +32,10 @@ const Home = () => {
         <p>Carregando...</p>
       ) : (
         chamados.map((chamado) => (
-          <div className="chamado" key={chamado.id}>
+          <div className="chamado" key={chamado.OS}>
             <h2>{chamado.OS}</h2>
             <h2>{chamado.DESCRICAO_TOTAL}</h2>
-            <Link to={`/chamados/${chamado.id}`} className="btn">
+            <Link to={`api/chamados/${chamado.OS}`} className="btn">
               Ler mais
             </Link>
           </div>
