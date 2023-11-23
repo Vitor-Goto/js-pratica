@@ -25,16 +25,14 @@ const Chamadodetails = () => {
     getChamadosdetails()
   }, [])
   return (
-    <div className="chamadodetails">
+    <div className="home">
       <h1>Detalhes do chamado</h1>
-      <p>{chamado.OS}</p>
-      {/* {Object.keys(chamado).map((key) => (
-        <div className="chamad" key={key}>
-          <p>
-            {key}: {chamado[key]}
-          </p>
+      {chamado.map((chamadoDetalhado) => (
+        <div className="chamado" key={chamadoDetalhado.OS}>
+          <h2>Ordem de chamado: {chamadoDetalhado.OS}</h2>
+          <h2>Descrição total: {chamadoDetalhado.DESCRICAO_TOTAL}</h2>
         </div>
-      ))} */}
+      ))}
     </div>
   )
 }

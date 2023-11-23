@@ -33,6 +33,7 @@ const chamadosSchema = new Schema(
     TP_ATENDIMENTO: String,
     LIMITE_SLA: String,
   },
+
   { timestamps: true }
 )
 

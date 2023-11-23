@@ -34,7 +34,7 @@ Content-Type: application/json
         "TP_ATENDIMENTO": "S",
         "LIMITE_SLA": null
     }
-
+    
 ###
 GET   http://localhost:6001/api/chamados
 

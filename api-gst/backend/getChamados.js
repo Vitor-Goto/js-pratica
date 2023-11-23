@@ -1,5 +1,6 @@
 import axios from "axios"
 import https from "https"
+import { CronJob } from "cron"
 
 const headers = {
   key: "ea9fed07a4cfa14a47889ff7a855b12b81fe2523f94bbaf2445bca1f5d9186f1",
@@ -13,12 +14,14 @@ const getCorreiosData = async () => {
   try {
     const response = await axios.get(correiosApiUrl, {
       headers: headers,
+      httpsAgent: new https.Agent({ rejectUnauthorized: false }),
     })
-    await axios.post(dbUrl, response.data)
-    console.log("Dados enviados para o JSON Server:", response.data)
+    console.log(response.data)
+    // await axios.post(dbUrl, response.data)
+    // console.log("Dados enviados para o JSON Server:", response.data)
   } catch (error) {
     console.error("Erro ao acessar a API dos Correios:", error.message)
   }
 }
 
-getCorreiosData()
+const job = new CronJob("* * * * * *", getCorreiosData())
