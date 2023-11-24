@@ -16,7 +16,8 @@ const getCorreiosData = async () => {
       headers: headers,
       httpsAgent: new https.Agent({ rejectUnauthorized: false }),
     })
-    console.log(response.data)
+    console.log(typeof response)
+    // console.log(typeof response, typeof response.data)
     // await axios.post(dbUrl, response.data)
     // console.log("Dados enviados para o JSON Server:", response.data)
   } catch (error) {
@@ -24,4 +25,7 @@ const getCorreiosData = async () => {
   }
 }
 
-const job = new CronJob("* * * * * *", getCorreiosData())
+const job = new CronJob("* * * * * *", () => {
+  getCorreiosData()
+})
+job.start()
